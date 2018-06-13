@@ -105,3 +105,87 @@ Processing by StaticPagesController#help as HTML
 Completed 200 OK in 87ms (Views: 75.7ms)
 
 
+Started GET "/static_pages/help" for 172.23.0.1 at 2018-06-13 15:29:12 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 214ms (Views: 205.0ms)
+
+
+Started GET "/static_pages/help" for 172.23.0.1 at 2018-06-13 15:30:19 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 86ms (Views: 76.3ms)
+
+
+Started GET "/static_pages/help" for 172.23.0.1 at 2018-06-13 15:30:20 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#help as HTML
+  Rendering static_pages/help.html.erb within layouts/application
+  Rendered static_pages/help.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 123ms (Views: 98.0ms)
+
+
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:30:22 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 105ms (Views: 92.1ms)
+
+
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:32:44 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 34ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 0)):
+    1: <!DOCTYPE html>
+    2: <html>
+    3:   <head>
+    4:     <title><%=full_title(yield(:title)) %> | Ruby on Rails Tutorial Sample App</title>
+    5:     <%= csrf_meta_tags %>
+    6:     <%= stylesheet_link_tag    'application', media: 'all',
+    7:                                'data-turbolinks-track': 'reload' %>
+  
+app/helpers/application_helper.rb:3:in `full_title'
+app/views/layouts/application.html.erb:4:in `_app_views_layouts_application_html_erb__3573535330154027222_69817982929060'
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:33:29 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 77.4ms)
+
+
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:33:30 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 74.7ms)
+
+
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:33:31 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 73.5ms)
+
+
+Started GET "/static_pages/home" for 172.23.0.1 at 2018-06-13 15:33:32 +0000
+Cannot render console from 172.23.0.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by StaticPagesController#home as HTML
+  Rendering static_pages/home.html.erb within layouts/application
+  Rendered static_pages/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 69.8ms)
+
+
