@@ -23,3 +23,5 @@ docker-compose exec web rails db:create
 docker-compose exec web rails db:migrate
 
 ```
+立ち上げ後は [http://localhost:3000/](http://localhost:3000/) で見れます
+
